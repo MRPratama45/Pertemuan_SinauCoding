@@ -1,0 +1,316 @@
+/* font */
+@font-face {
+    font-family: Roboto-font;
+    src: url(../Pertemuan3_CSSLayouting_SinauCoding/assets/font/Roboto-font/Roboto-Medium.ttf);
+}
+
+/* pokok */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    display: inline;
+    position: relative;
+    left: 570px;
+    top: 20px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    right: 100px;
+}
+
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    top: 20px;
+}
+
+/* header index, about, contact */
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #701ddb  ;
+    display: inline-block;
+    border-style: groove;
+    border: 1px solid #701ddb;
+    border-bottom: outset #31126d;
+    z-index: 1;
+}
+
+.pHeader{
+    display: inline;
+    font-family: Roboto-font;
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.spanHeader{
+    display: inline-block;
+    font-family: Roboto-font;
+    font-size: 24px;
+    color: #fff200;
+    font-weight: 400;
+}
+
+.img1{
+    display: inline;  
+    position: relative;
+    float: left; 
+    top: 10px;
+    left: 10px;
+}
+
+.img2{
+    /* margin-top: 50px; */
+    display: inline;  
+    position: relative;
+    float: right; 
+    top: 10px;
+    right: 10px;
+}
+
+a:active{
+    color: #fff200;
+    border-bottom: solid 2px #fff200;
+    border-radius: 1px;
+}
+
+a:hover{
+    color: #fff200;
+    border-bottom: solid 2px #fff200;
+    border-radius: 1px;
+}
+
+/* main index*/
+.main{
+    /* border: solid black 10px; */
+    position: relative;
+    margin-top: 0px;
+    background: linear-gradient( to right, #801bea, #8b54d7);
+}
+
+.img3{
+    width: 50%;
+    height: 100%;
+    display: inline;
+    position: relative;
+}
+.img4{
+    position: relative;
+    right: 450px;
+    top: -380px;
+    width: 200px;
+    height: 200px;
+}
+
+.pMain{
+    text-align: center;
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff200;
+    font-family: Roboto-font;
+    bottom: 450px;
+    left: 55px;
+    z-index: 1;
+}
+.img5{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    bottom: 753px;
+}
+
+.img6{
+    position: relative;
+    float: right;
+    bottom: 350px;
+    width: 200px;
+    height: 200px;
+    left: 450px;
+}
+
+.img7{
+    position: relative;
+    left: 50%;
+}
+
+/* main about */
+.mainAbout{
+    /* border: solid 10px black; */
+    position: static;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #801bea, #8b54d7);
+    font-family: Roboto-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff200;
+    
+}
+.img1-about{
+    position: relative;
+    left: 250px;
+    top: 115px;
+}
+.pHeader-about{
+    font-size: 24px;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+.spanHeader-about{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.p-about{
+    width: 410px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 225px;
+    left: -100px;
+}
+button{
+    background: linear-gradient(to right, #fff200, #a59d00);
+    font-family: Roboto-font;
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 60px;
+    position: absolute;
+    left: 325px;
+    bottom: 100px;
+}
+.img2-about{
+    display: inline-block;
+    position: relative;
+    left: 763px;
+    bottom: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.img3-about{
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+    width: 200px;
+    height: 150px;
+}
+
+.img4-about{
+    position: relative;
+    left: 220px;
+    bottom: 50px;
+    width: 200px;
+    height: 150px;
+}
+
+.img5-about{
+    position: relative;
+    right: 210px;
+    bottom: 150px;
+    width: 200px;
+    height: 150px;
+}
+
+
+/* main contact */
+.mainContact{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    font-family: Roboto-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff200;
+    background: linear-gradient(to right, #801bea, #8b54d7);
+}
+
+.p-contact{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    border: solid 1px #491285;
+    border-radius: 10px 0 0 10px;
+    border-color: #491285;
+    background-color: #491285;
+    box-shadow: 3px 3px 0 #b080e4 ;
+}
+
+.p-contact2{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    border: solid 1px #491285;
+    border-radius: 0 10px 10px 0;
+    border-color: #491285;
+    background-color: #8114f5;
+    box-shadow: 3px 3px 0 #491285 ;
+
+}
+
+.img2-contact{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 5%;
+    top: 100px;
+}
+
+.img3-contact{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 15px;
+    top: 100px;
+}
+
+/* footer index, about, contact*/
+
+.footer{
+    background-color: cyan;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.pFooter{
+    position: relative;
+    left: 500px;
+}
